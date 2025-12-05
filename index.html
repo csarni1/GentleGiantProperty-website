@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentle Giant Property Solutions - Licensed Construction & Renovation</title>
+    <meta name="description" content="Professional construction and renovation services in Birmingham, AL. Licensed and insured. Specializing in kitchens, bathrooms, roofing, siding, and complete home renovations.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="https://github.com/user-attachments/assets/3dd4bb8b-4e40-43cd-8278-8fef1c1d542a" 
+                         alt="Gentle Giant Property Solutions" 
+                         class="logo">
+                </div>
+                <nav class="nav-desktop">
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Get Estimate</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="nav-mobile" id="mobileMenu">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Get Estimate</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-logo">
+                <img src="https://github.com/user-attachments/assets/3dd4bb8b-4e40-43cd-8278-8fef1c1d542a" 
+                     alt="Gentle Giant Property Solutions">
+            </div>
+            <h1>Build • Renovate • Restore</h1>
+            <p class="hero-subtitle">Remodels • Additions • Repairs</p>
+            <p class="hero-services">Roofing • Siding • Windows • Kitchens • Baths • Basements</p>
+            <a href="#contact" class="btn-primary">Request Estimate</a>
+            <p class="hero-phone">205-757-1272</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Recent Projects</h2>
+                <p>Explore our portfolio of completed construction and renovation work</p>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container-small">
+            <div class="section-header">
+                <h2>Request Your Estimate</h2>
+                <p>Fill out the form below and we'll get back to you within 24 hours</p>
+            </div>
+
+            <div id="successMessage" class="success-message" style="display: none;">
+                <div class="success-icon">✓</div>
+                <h3>Thank You!</h3>
+                <p>Your estimate request has been submitted. We'll contact you shortly.</p>
+            </div>
+
+            <div id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" id="name" required placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address *</label>
+                        <input type="email" id="email" required placeholder="john@example.com">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Phone Number *</label>
+                        <input type="tel" id="phone" required placeholder="(205) 555-0123">
+                    </div>
+                    <div class="form-group">
+                        <label>Property Address *</label>
+                        <input type="text" id="address" required placeholder="123 Main St, Birmingham, AL">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Project Type *</label>
+                        <select id="projectType" required>
+                            <option value="">Select project type</option>
+                            <option value="kitchen">Kitchen Renovation</option>
+                            <option value="bathroom">Bathroom Remodel</option>
+                            <option value="exterior">Exterior Work</option>
+                            <option value="roofing">Roofing</option>
+                            <option value="deck">Deck/Patio</option>
+                            <option value="basement">Basement Finishing</option>
+                            <option value="flip">Flip Investment</option>
+                            <option value="rental">Rental Investment</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Estimated Budget</label>
+                        <select id="budget">
+                            <option value="">Select budget range</option>
+                            <option value="under25k">Under $25,000</option>
+                            <option value="25k-50k">$25,000 - $50,000</option>
+                            <option value="50k-100k">$50,000 - $100,000</option>
+                            <option value="over100k">Over $100,000</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Project Description *</label>
+                    <textarea id="description" required rows="5" placeholder="Please describe your project, including any specific requirements or preferences..."></textarea>
+                </div>
+
+                <div class="privacy-notice">
+                    <p><strong>Privacy Notice:</strong> Your information is securely stored and will only be used to contact you regarding your project estimate. We never share your data with third parties.</p>
+                </div>
+
+                <button class="btn-submit" id="submitBtn">Submit Estimate Request</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="https://github.com/user-attachments/assets/3dd4bb8b-4e40-43cd-8278-8fef1c1d542a" 
+                     alt="Gentle Giant Property Solutions">
+            </div>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact">
+                        <p>📞 (205) 757-1272</p>
+                        <p>✉️ contact@gentlegiantproperty.com</p>
+                        <p>📍 Bessemer, Alabama</p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <p class="services-tag">Build • Renovate • Restore</p>
+                    <ul>
+                        <li>Remodels • Additions • Repairs</li>
+                        <li>Roofing • Siding • Windows</li>
+                        <li>Kitchens • Baths • Basements</li>
+                    </ul>
+                    <p class="licensed-badge">LICENSED AND INSURED</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Service Area</h3>
+                    <p>Proudly serving Birmingham, Bessemer, Hoover, Vestavia Hills, Mountain Brook, Homewood, and surrounding areas.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gentle Giant Property Solutions LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">×</button>
+            <div id="modalBody">
+                <!-- Content loaded by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
