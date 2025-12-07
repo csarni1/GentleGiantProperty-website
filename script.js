@@ -23,8 +23,8 @@ const projects = {
         description: "Complete kitchen renovation featuring custom cabinetry, granite countertops, and stainless steel appliances. This project transformed an outdated kitchen into a modern, functional space perfect for cooking and entertaining.",
         location: "Hueytown, AL",
         year: "2024",
-        beforeImage: "images/kitchen1-before.jpg",
-        afterImage: "images/kitchen1-after.jpg"
+        beforeImage: "images/kitchen1-before.JPG",
+        afterImage: "images/kitchen1-after.JPG"
     },
     2: {
         title: "Luxury Bathroom Renovation",
@@ -32,8 +32,8 @@ const projects = {
         description: "Elegant bathroom transformation with walk-in shower, modern fixtures, and custom tile work. We created a spa-like retreat with high-end finishes and thoughtful design.",
         location: "Hoover, AL",
         year: "2024",
-        beforeImage: "images/bathroom1-before.jpg",
-        afterImage: "images/bathroom1-after.jpg"
+        beforeImage: "images/bathroom1-before.JPG",
+        afterImage: "images/bathroom1-after.JPG"
     },
     3: {
         title: "Complete Exterior Makeover",
@@ -41,8 +41,8 @@ const projects = {
         description: "New siding, roofing, windows, and landscaping transformed this home's curb appeal. The project included energy-efficient upgrades that improved both appearance and functionality.",
         location: "Vestavia Hills, AL",
         year: "2023",
-        beforeImage: "images/exterior1-before.jpg",
-        afterImage: "images/exterior1-after.jpg"
+        beforeImage: "images/exterior1-before.JPG",
+        afterImage: "images/exterior1-after.JPG"
     },
     4: {
         title: "Deck Renovation",
@@ -59,8 +59,8 @@ const projects = {
         description: "Complete renovation of investment property including kitchen, bathrooms, flooring, and paint. We maximized value while staying on budget and schedule.",
         location: "Bessemer, AL",
         year: "2022",
-        beforeImage: "images/investment1-before.jpg",
-        afterImage: "images/investment1-after.jpg"
+        beforeImage: "images/investment1-before.JPG",
+        afterImage: "images/investment1-after.JPG"
     },
     6: {
         title: "Finished Bedroom",
@@ -68,8 +68,8 @@ const projects = {
         description: "Transformed small bedroom into a spacious Master. Complete with new flooring, lighting, and custom built-ins.",
         location: "Homewood, AL",
         year: "2023",
-        beforeImage: "images/bedroom1-before.jpg",
-        afterImage: "images/bedroom1-after.jpg"
+        beforeImage: "images/bedroom1-before.JPG",
+        afterImage: "images/bedroom1-after.JPG"
     }
 };
 
