@@ -1216,3 +1216,57 @@ body {
         max-width: 1400px;
     }
 }
+
+/* Spanish and Additional Phone Styles */
+.spanish-notice {
+    color: #ffeb3b;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.additional-phones {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.additional-phones a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.additional-phones a:hover {
+    text-decoration: underline;
+}
+
+.spanish-footer {
+    color: #ffeb3b;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.footer-contact a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #ffeb3b;
+}
+.spanish-highlight {
+    color: #2c5f2d;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.contact-info-card a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    margin: 0.3rem 0;
+}
+
+.contact-info-card a:hover {
+    color: #2c5f2d;
+    text-decoration: underline;
+}
