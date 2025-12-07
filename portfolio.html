@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Gentle Giant Property Solutions</title>
+    <meta name="description" content="View our completed construction and renovation projects. Before and after photos of our quality work.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <a href="index.html">
+                        <img src="images/IMAGES GENTLE GIANT-01.jpg" 
+                             alt="Gentle Giant Property Solutions" 
+                             class="logo">
+                    </a>
+                </div>
+                <nav class="nav-desktop">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html" class="active">Portfolio</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="nav-mobile" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>See the transformations we've created for our valued clients</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="section-title-center">
+                <h2 class="section-title">Completed Projects</h2>
+                <p class="section-subtitle">Browse our before and after transformations</p>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                
+                <!-- PROJECT 1 - Kitchen Remodel -->
+                <div class="project-card" data-project="1">
+                    <div class="project-image">
+                        <img src="images/kitchen1-after.JPG" alt="Kitchen Remodel">
+                        <span class="project-category">Kitchen</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Modern Kitchen Transformation</h3>
+                        <p>Complete kitchen renovation featuring custom cabinetry, granite countertops, and stainless steel appliances.</p>
+                        <button class="project-btn" onclick="openModal(1)">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 - Bathroom Remodel -->
+                <div class="project-card" data-project="2">
+                    <div class="project-image">
+                        <img src="images/bathroom1-after.jpg" alt="Bathroom Remodel">
+                        <span class="project-category">Bathroom</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Luxury Bathroom Renovation</h3>
+                        <p>Elegant bathroom transformation with walk-in shower, modern fixtures, and custom tile work.</p>
+                        <button class="project-btn" onclick="openModal(2)">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 - Exterior Work -->
+                <div class="project-card" data-project="3">
+                    <div class="project-image">
+                        <img src="images/exterior1-after.jpg" alt="Exterior Renovation">
+                        <span class="project-category">Exterior</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Complete Exterior Makeover</h3>
+                        <p>New siding, roofing, windows, and landscaping transformed this home's curb appeal.</p>
+                        <button class="project-btn" onclick="openModal(3)">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PROJECT 4 - Home Addition -->
+                <div class="project-card" data-project="4">
+                    <div class="project-image">
+                        <img src="images/addition1-after.jpg" alt="Home Addition">
+                        <span class="project-category">Additions</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sunroom Addition</h3>
+                        <p>Beautiful sunroom addition providing extra living space and natural light.</p>
+                        <button class="project-btn" onclick="openModal(4)">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PROJECT 5 - Investment Property -->
+                <div class="project-card" data-project="5">
+                    <div class="project-image">
+                        <img src="images/investment1-after.jpg" alt="Investment Property">
+                        <span class="project-category">Investment</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Investment Property Flip</h3>
+                        <p>Complete renovation of investment property including kitchen, bathrooms, flooring, and paint.</p>
+                        <button class="project-btn" onclick="openModal(5)">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PROJECT 6 - Basement Renovation -->
+                <div class="project-card" data-project="6">
+                    <div class="project-image">
+                        <img src="images/basement1-after.jpg" alt="Basement Renovation">
+                        <span class="project-category">Other</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Finished Basement</h3>
+                        <p>Transformed unfinished basement into beautiful living space with entertainment area and bar.</p>
+                        <button class="project-btn" onclick="openModal(6)">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ADD MORE PROJECTS HERE - Copy and paste a project card -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Contact us today for a professional estimate</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn-primary-large">Get Your Estimate</a>
+                <a href="tel:205-757-1272" class="btn-secondary-large">Call (205) 757-1272</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Project Details -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <img src="" alt="Project" class="modal-image" id="modalImage">
+            <div class="modal-body">
+                <span class="modal-category" id="modalCategory"></span>
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+                
+                <div class="before-after">
+                    <h3>Before & After</h3>
+                    <div class="before-after-grid">
+                        <div class="before-after-item">
+                            <p>BEFORE</p>
+                            <img src="" alt="Before" id="beforeImage">
+                        </div>
+                        <div class="before-after-item">
+                            <p>AFTER</p>
+                            <img src="" alt="After" id="afterImage">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-details-box">
+                    <h3 id="modalLocation"></h3>
+                    <p id="modalYear"></p>
+                </div>
+
+                <a href="contact.html" class="modal-cta">Start Your Project →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="images/IMAGES GENTLE GIANT-01.jpg" 
+                     alt="Gentle Giant Property Solutions">
+            </div>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact">
+                        <p>📞 (205) 757-1272</p>
+                        <p>✉️ contact@gentlegiantproperty.com</p>
+                        <p>📍 Hoover, Alabama</p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Service Area</h3>
+                    <p>Proudly serving Birmingham, Bessemer, Hoover, Vestavia Hills, Mountain Brook, Homewood, and surrounding areas.</p>
+                    <p class="licensed-badge">LICENSED AND INSURED</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gentle Giant Property Solutions LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
