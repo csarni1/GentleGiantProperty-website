@@ -40,36 +40,36 @@ const projects = {
         category: "Exterior",
         description: "New siding, roofing, windows, and landscaping transformed this home's curb appeal. The project included energy-efficient upgrades that improved both appearance and functionality.",
         location: "Vestavia Hills, AL",
-        year: "2024",
+        year: "2023",
         beforeImage: "images/exterior1-before.jpg",
         afterImage: "images/exterior1-after.jpg"
     },
     4: {
-        title: "Sunroom Addition",
-        category: "Additions",
-        description: "Beautiful sunroom addition providing extra living space and natural light. This project seamlessly integrated with the existing structure while creating a bright, inviting space.",
-        location: "Mountain Brook, AL",
+        title: "Deck Renovation",
+        category: "Exterior",
+        description: "Beautiful deck renovation providing extra space and natural light. This project seamlessly integrated with the existing structure while creating a bright, inviting space.",
+        location: "Vestavia Hills, AL",
         year: "2023",
-        beforeImage: "images/addition1-before.jpg",
-        afterImage: "images/addition1-after.jpg"
+        beforeImage: "images/deckrenovation1-before.JPG",
+        afterImage: "images/deckrenovation1-after.JPG"
     },
     5: {
         title: "Investment Property Flip",
         category: "Investment",
         description: "Complete renovation of investment property including kitchen, bathrooms, flooring, and paint. We maximized value while staying on budget and schedule.",
         location: "Bessemer, AL",
-        year: "2024",
+        year: "2022",
         beforeImage: "images/investment1-before.jpg",
         afterImage: "images/investment1-after.jpg"
     },
     6: {
-        title: "Finished Basement",
+        title: "Finished Bedroom",
         category: "Other",
-        description: "Transformed unfinished basement into beautiful living space with entertainment area and bar. Complete with new flooring, lighting, and custom built-ins.",
+        description: "Transformed small bedroom into a spacious Master. Complete with new flooring, lighting, and custom built-ins.",
         location: "Homewood, AL",
         year: "2023",
-        beforeImage: "images/basement1-before.jpg",
-        afterImage: "images/basement1-after.jpg"
+        beforeImage: "images/bedroom1-before.jpg",
+        afterImage: "images/bedroom1-after.jpg"
     }
 };
 
